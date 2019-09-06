@@ -1,0 +1,442 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.html,.body{
+   height: 100vh;
+}
+
+.body{
+  background-color: #282c34;
+}
+#root{
+  height: 100%;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.header_container{
+ 
+  width: 100%;
+  
+}
+.header_title{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+  
+}
+.header_title  {
+  color:rgb(56, 56, 206);
+  
+  text-decoration: none;
+}
+#root{
+  
+}
+.folder_list_main a {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  color: black;
+  text-decoration: none;  
+  color:rgb(56, 56, 206);
+}
+#root ul{
+  list-style: none;
+  font-size: 20px;
+}
+.Header{
+  
+  font-size: 28px;
+  text-align: center;
+  height: 100%;
+  padding:15px;
+ 
+  width: 100%;
+  max-width: 400px;
+
+}
+.Header:hover{
+  background-color:rgb(11, 58, 73);
+  
+  color:white;
+  transition-duration: .4s;
+}
+button{
+  
+}
+button:hover{
+  cursor: pointer;
+  
+  
+  transition-duration: 0.4s
+}
+.folder_list_main{
+  background-color: #61dafb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.folder_list_main li{
+ height: 55px;
+
+  margin:10px;
+  text-align: center;
+  border-radius: 9px;
+  
+  width:140px;
+  background-color: white;
+  max-width: 200px;
+}
+#main_folder_name:hover{
+  
+}
+.folder_list_main .active{
+  padding-top: 10%;
+  padding-bottom: 10%;
+  color:black;
+  background-color:gold;
+  border-radius: 9px;
+}
+#main_folder_name{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  
+  margin:0;
+  
+  height: 100%;
+  width: 100%;
+  max-width: 200px;
+}
+#main_folder_name a{
+  display: block;
+  
+  
+  margin:0;
+  
+  
+  width: 100%;
+  height: 100%;
+}
+#main_folder_name a:hover{
+  cursor: default;
+}
+
+.folder_list{
+
+}
+.Folder_title{
+  font-size: 25px;
+  padding:10px 10px 10px 21px;
+  background-color: #61dafb;
+  color: white;
+}
+.add_folder_button{
+  width: 90%;
+  max-width:328.5px;
+  display: block;
+  height: 50px;
+  font-size: 30px;
+  background-color:rgb(51, 166, 204);
+  color:white;
+  padding: 4px;
+  border:1px solid rgb(51, 166, 204);
+  font-size:30px;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+.folder_list{
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content:center;
+  background-color: #61fb9cea;
+  padding-bottom: 20px;
+}
+.folder_list li{
+  display: block;
+  background-color:white;
+  color:rgb(56, 56, 206);
+  border-radius: 9px;
+  margin:6px;
+  padding: 10px;
+}
+.folder_list h4{
+
+}
+.folder_list a{
+  text-decoration: none;
+  color:rgb(56, 56, 206);
+  
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.Notes_title{
+  font-size: 25px;
+  padding:10px 10px 10px 21px;
+  background-color: #61fb9cea;
+  color: white;
+}
+article{
+  display: flex;
+  flex-direction: column;
+}
+.add_note_container{
+  display: flex;
+  justify-content: center;
+  background-color: #61fb9cea;
+  padding-bottom: 10px;
+  
+}
+.add_note_button{
+  width: 90%;
+  max-width: 328.5px;
+  display: block;
+  height: 50px;
+  font-size: 30px;
+  background-color: #18f32bea;
+  color:white;
+  padding: 4px;
+  border:1px solid  #61fb9cea;
+  border-radius: 8px;
+  font-size:30px;
+  margin-top: 5px;
+  
+}
+.folder_list_specific{
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content:space-between;
+  background-color: #61fb9cea;
+  padding-bottom: 20px;
+}
+.folder_list_specific li{
+  display: block;
+  background-color:white;
+  color:rgb(56, 56, 206);
+  border-radius: 9px;
+  margin:7px;
+  padding: 4px;
+}
+.folder_list_specific h4{
+
+}
+.folder_list_specific a{
+  text-decoration: none;
+  color:rgb(56, 56, 206);
+  
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+form{
+ 
+  
+}
+.main_app{
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.folder_form{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:rgb(7, 184, 243);
+  font-size: 30px;
+}
+.form_title{
+ height:40px;
+  background-color:  rgb(51, 166, 204);
+ font-size: 26px;
+ margin-bottom: 20px;
+ color:white;
+ padding:5px;
+}
+.folder_input{
+  height: 70px;
+  width: 80%;
+  display:block;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 12px;
+  margin-bottom: 70px;
+  margin-top:40px;
+}
+.folder_input_title{
+  margin-top: 60px;
+  margin-bottom: 10px;
+  padding:10px;
+}
+.folder_input[type='text']{
+  font-size: 30px;
+  text-align: center;
+  border: none;
+}
+.submit_button{
+  width: 100%;
+  margin-top:90px;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.submit_button[type='submit']:disabled{
+  background-color: rgb(160, 160, 160);
+  color:rgb(190, 190, 190);
+}
+.submit_button[type='submit']{
+  font-size: 40px;
+  background-color: rgb(10, 255, 31);
+  border: none;
+  color:rgb(35, 30, 110) ;
+}
+.folder_validation{
+  padding:5px;
+  font-size:17px;
+  background-color: rgb(216, 223, 230);
+  color: red;
+  margin-bottom:20px;
+}
+.folder_input_hint{
+  font-size: 18px;
+  padding: 5px;
+}
+.filler{
+  height: 200px;
+  background-color:rgb(7, 184, 243);
+}
+
+.input[type='text']{
+  font-size: 30px;
+  text-align: center;
+  border: none;
+}
+.note_form{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#61fb9cea;
+  font-size: 30px;
+}
+.note_input_title{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding:10px;
+}
+.note_form h3{
+  height:40px;
+  background-color:  rgb(75, 170, 19);
+ font-size: 26px;
+ margin-bottom: 20px;
+ color:white;
+ padding:5px;
+}
+.select_list{
+  margin-top:10px;
+  position: relative;
+  font-size: 20px;
+}
+.note_form_dropdown{
+ 
+ 
+}
+.note_form_dropdown:after{
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+.note_container{
+  height: 90%;
+  background-color: #7de786ea;;
+}
+.note_name{
+  margin-top: 10px;
+  background-color: #12c221ea;
+  padding: 5px;
+
+}
+.note_date{
+  font-weight: bold;
+  padding: 5px;
+  margin-top: 10px;
+  background-color: #7de786ea;
+}
+.note_delete{
+  width: 100%;
+  margin-top:90px;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 40px;
+  background-color: rgba(243, 7, 7, 0.897);
+  border: none;
+  color:rgb(153, 152, 165) ;
+}
+.note_content{
+  padding: 15px;
+  margin-top: 20px;
+  font-size: 17px;
+  background-color: #7de786ea;
+}
+.goback_button{
+  width: 50px;
+  background-color: #fff;
+  border: 1px solid grey;;
+  margin-left: 5px;
+
+}
+/* law and order hands free */
